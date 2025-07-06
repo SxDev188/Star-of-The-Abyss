@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18e21e458e1c56a448a414f87b4ccc94, type: 3}
+  m_Name: Lore7
+  m_EditorClassIdentifier: 
+  dialogueInfo:
+  - dialouge: There is a story the stars wont tell you
+  - dialouge: A dark one, a being whose fragmets were ingrained deep into the hearts
+      of the snakes
+  - dialouge: Its black light corrupting all it touches, its form contaied in circular
+      sigils
+  - dialouge: Only a star might free it from its slumber
+  - dialouge: Only a star might destroy it for good
+  - dialouge: 'Fear the dark star
+
+'

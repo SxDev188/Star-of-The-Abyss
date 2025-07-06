@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18e21e458e1c56a448a414f87b4ccc94, type: 3}
+  m_Name: TL1_Welcome
+  m_EditorClassIdentifier: 
+  dialogueInfo:
+  - dialouge: 'Welcome to the Abyss and the first tutorial level! '
+  - dialouge: Move with W, A, S and D, or if using a gamepad the Left Stick.
+  - dialouge: What you just interacted with is a lore tile, they give useful tips
+      and hints.
+  - dialouge: The glowing object on top of you is a Star.
+  - dialouge: The Star is keeping you alive in this dark abyssmal place, so don't
+      leave it for too long or you'll die.
+  - dialouge: The glow from the Star reveals color, so you can see color connections
+      between objects.
+  - dialouge: "You can drop the Star with the space bar, or the North button on your
+      gamepad. \nYou can also recall the Star to you in the same way if you are close
+      enough."
+  - dialouge: You can throw the Star to interact with things.
+  - dialouge: "Press the Left Mouse Button, aim by pulling the mouse back, and release
+      to throw. \nWith a gamepad, aim with the Right Stick and push the Right Trigger
+      to throw."
+  - dialouge: Every time you throw the Star, your progress will be saved. So if you
+      do end up dying, you will revert back to the last time you threw the Star.

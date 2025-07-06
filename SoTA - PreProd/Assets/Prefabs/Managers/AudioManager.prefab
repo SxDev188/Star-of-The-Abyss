@@ -1,0 +1,293 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5578199862620801904
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9201603660823446556}
+  - component: {fileID: 9205415575917240050}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9201603660823446556
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5578199862620801904}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5323797047592085621}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9205415575917240050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5578199862620801904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27c4b3218e098c94685985b9430488e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  masterVolume: 1
+  musicVolume: 1
+  SFXVolume: 1
+  backgroundMusicIndex: 0
+  disableBgMusic: 0
+  disableAmbience: 0
+--- !u!1 &5652984145735463639
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5323797047592085621}
+  - component: {fileID: 1162084338279053781}
+  m_Layer: 0
+  m_Name: FMODEvents
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5323797047592085621
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5652984145735463639}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.9064775, y: 7.353833, z: 8.139451}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9201603660823446556}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1162084338279053781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5652984145735463639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7183d85edb72845a4328d02f172d6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <ButtonSFX>k__BackingField:
+    Guid:
+      Data1: 1523794293
+      Data2: 1316951208
+      Data3: -486885958
+      Data4: 1012051852
+    Path: event:/SFX/ButtonSFX
+  <TimerTickingSFX>k__BackingField:
+    Guid:
+      Data1: -2072432112
+      Data2: 1197504309
+      Data3: 2145628607
+      Data4: -56747037
+    Path: event:/SFX/TimerTicking
+  <PressurePlateSFX>k__BackingField:
+    Guid:
+      Data1: 1983463218
+      Data2: 1334895756
+      Data3: -1399288440
+      Data4: 1154796700
+    Path: event:/SFX/PressurePlateSFX
+  <SlitherSound>k__BackingField:
+    Guid:
+      Data1: 105197990
+      Data2: 1261814999
+      Data3: 1136303515
+      Data4: 1547159374
+    Path: event:/SFX/Slither
+  <BoulderSFX>k__BackingField:
+    Guid:
+      Data1: 1899738821
+      Data2: 1265916534
+      Data3: -1359872622
+      Data4: 1231198397
+    Path: event:/SFX/Boulder/BoulderPushSFX
+  <BoulderAttachSFX>k__BackingField:
+    Guid:
+      Data1: 149276960
+      Data2: 1168256014
+      Data3: -2045586499
+      Data4: 1375929149
+    Path: event:/SFX/Boulder/BoulderAttachSFX
+  <BoulderDetachSFX>k__BackingField:
+    Guid:
+      Data1: -1649721144
+      Data2: 1139812046
+      Data3: 1271886475
+      Data4: -2085302461
+    Path: event:/SFX/Boulder/BoulderDetachSFX
+  <LowHealthWarningSFX>k__BackingField:
+    Guid:
+      Data1: -1085689497
+      Data2: 1140326852
+      Data3: 1455694256
+      Data4: -1194908915
+    Path: event:/SFX/LifeforceDrain
+  <DeathSFX>k__BackingField:
+    Guid:
+      Data1: -423022087
+      Data2: 1190203400
+      Data3: -1318153336
+      Data4: 222503164
+    Path: event:/SFX/DeathSFX
+  <BackgroundMusic>k__BackingField:
+    Guid:
+      Data1: -1048933170
+      Data2: 1333747577
+      Data3: -1417496921
+      Data4: -1637747067
+    Path: event:/Music/BackgroundMusic
+  <AmbientTrack01a>k__BackingField:
+    Guid:
+      Data1: 2053991976
+      Data2: 1170332377
+      Data3: 1074133667
+      Data4: -841379321
+    Path: event:/Music/AmbientTrack01a
+  <AmbientTrack01b>k__BackingField:
+    Guid:
+      Data1: -24501548
+      Data2: 1263935403
+      Data3: 1642434724
+      Data4: -1646022121
+    Path: event:/Music/AmbientTrack01b
+  <AmbientTrack02>k__BackingField:
+    Guid:
+      Data1: -1640935694
+      Data2: 1220505371
+      Data3: -1490239597
+      Data4: -2043592981
+    Path: event:/Music/AmbientTrack02
+  <AmbientTrack03>k__BackingField:
+    Guid:
+      Data1: -1443167609
+      Data2: 1240792352
+      Data3: -441413716
+      Data4: -190988893
+    Path: event:/Music/AmbientTrack03
+  <AmbientTrack04>k__BackingField:
+    Guid:
+      Data1: -357055563
+      Data2: 1162199632
+      Data3: 1035913100
+      Data4: 122739735
+    Path: event:/Music/AmbientTrack04
+  <Ambience>k__BackingField:
+    Guid:
+      Data1: 811198417
+      Data2: 1157867452
+      Data3: -626013563
+      Data4: -1553630635
+    Path: event:/Ambience/abyssAmbience
+  <DeepAmbience>k__BackingField:
+    Guid:
+      Data1: 1320256307
+      Data2: 1091742929
+      Data3: -1842340709
+      Data4: 122698732
+    Path: event:/Ambience/DeepAmbience
+  <StarThrowSFX>k__BackingField:
+    Guid:
+      Data1: 273182264
+      Data2: 1210510344
+      Data3: -1802214987
+      Data4: 474407436
+    Path: event:/SFX/Star/Star Throw/StarThrow
+  <StarThrowAttackSFX>k__BackingField:
+    Guid:
+      Data1: 419052247
+      Data2: 1079560443
+      Data3: -428739946
+      Data4: 683216428
+    Path: event:/SFX/Star/Star Throw/StarThrowAttack
+  <StrongThrowAttackSFX>k__BackingField:
+    Guid:
+      Data1: -998587120
+      Data2: 1163943603
+      Data3: -1407099501
+      Data4: 963992136
+    Path: event:/SFX/Star/Star Throw/StrongThrowAttack
+  <StarLandFloorSFX>k__BackingField:
+    Guid:
+      Data1: -627151226
+      Data2: 1130779902
+      Data3: 1900929153
+      Data4: 1337258590
+    Path: event:/SFX/Star/Star Throw/StarLand
+  <StarShimmerSFX>k__BackingField:
+    Guid:
+      Data1: 407308356
+      Data2: 1153975107
+      Data3: -1642638664
+      Data4: 261661244
+    Path: event:/SFX/Star/StarShimmer
+  <StarRecallSuccessSFX>k__BackingField:
+    Guid:
+      Data1: -1766778480
+      Data2: 1253232023
+      Data3: 1441760941
+      Data4: 2024998391
+    Path: event:/SFX/Star/Star Recall/StarRecallSuccess
+  <StarRecallFailSFX>k__BackingField:
+    Guid:
+      Data1: 1156003719
+      Data2: 1080802008
+      Data3: 443417004
+      Data4: -1913946174
+    Path: event:/SFX/Star/Star Recall/StarRecallFail
+  <StarPickupSFX>k__BackingField:
+    Guid:
+      Data1: -1025954770
+      Data2: 1244782409
+      Data3: 1139689115
+      Data4: -1146006044
+    Path: event:/SFX/Star/StarPickup
+  <StarGravityPullSFX>k__BackingField:
+    Guid:
+      Data1: 1460858781
+      Data2: 1121662732
+      Data3: -1453459548
+      Data4: 916968847
+    Path: event:/SFX/StarGravityPull
+  <SpikesAppearSFX>k__BackingField:
+    Guid:
+      Data1: -1893756287
+      Data2: 1341463142
+      Data3: 1950096294
+      Data4: -795944154
+    Path: event:/SFX/Spikes/SpikesAppearSFX
+  <SpikesDisappearSFX>k__BackingField:
+    Guid:
+      Data1: -582264135
+      Data2: 1336075317
+      Data3: 61188006
+      Data4: 496474685
+    Path: event:/SFX/Spikes/SpikesDisappearSFX

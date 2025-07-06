@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18e21e458e1c56a448a414f87b4ccc94, type: 3}
+  m_Name: TL2_Welcome
+  m_EditorClassIdentifier: 
+  dialogueInfo:
+  - dialouge: Welcome to the second tutorial level!
+  - dialouge: In this level you will be introduced to a new abilitiy and a couple
+      new puzzle objects.
+  - dialouge: Notice the gap in front of you? Your Star has evolved and can now use
+      its gravity to pull you towards it.
+  - dialouge: Throw the Star across the gap, and if on keyboard press G, or on gamepad
+      the West Button to have the Star pull you across.
